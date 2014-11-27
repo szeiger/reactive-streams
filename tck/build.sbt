@@ -15,3 +15,9 @@ publishMavenStyle := true
 libraryDependencies += "org.testng" % "testng" % "6.8.5"
 
 testNGSettings
+
+osgiSettings
+
+OsgiKeys.exportPackage := Seq("org.reactivestreams.tck")
+
+OsgiKeys.privatePackage := Nil

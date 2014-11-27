@@ -9,3 +9,9 @@ autoScalaLibrary := false
 crossPaths := false
 
 publishMavenStyle := true
+
+osgiSettings
+
+OsgiKeys.exportPackage := Seq("org.reactivestreams")
+
+OsgiKeys.privatePackage := Nil
