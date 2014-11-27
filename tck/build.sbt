@@ -18,6 +18,6 @@ testNGSettings
 
 osgiSettings
 
-OsgiKeys.exportPackage := Seq("org.reactivestreams.tck")
+OsgiKeys.exportPackage := Seq("org.reactivestreams.tck", "org.reactivestreams.tck.*")
 
 OsgiKeys.privatePackage := Nil
